@@ -1,0 +1,15 @@
+# Auto-detect text files
+* text=auto
+
+# Shell scripts must keep LF
+*.sh text eol=lf
+
+# Markdown text files
+*.md text
+
+# JSON files
+*.json text
+
+# Git attributes
+.gitattributes text
+.gitignore text

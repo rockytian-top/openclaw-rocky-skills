@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.vs/
+
+# Test artifacts
+/tmp/rocky-evo-*/
+/tmp/rocky-evo-test-*
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Build
+dist/
+build/
+
+# OpenClaw local state (users should not commit their openclaw.json)
+openclaw.json
